@@ -1,0 +1,22 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+outputs/
+verification_artifacts/
+release_build/
+checkpoints/
+wheelhouse/
+*.zip
+*.7z
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Packaging-only files that depend on a separately distributed Windows wheelhouse.
+install_offline_windows.bat
+requirements-offline.txt
+PORTABLE_PACKAGE_README.txt
